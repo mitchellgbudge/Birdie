@@ -15,10 +15,19 @@ class HomePageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setupViews()
         // Do any additional setup after loading the view.
     }
     
+    func setupViews() {
+        newRoundButton.layer.borderWidth = 0.2
+        newRoundButton.layer.backgroundColor = UIColor.green.cgColor
+        newRoundButton.layer.borderColor = UIColor.green.cgColor
+        newRoundButton.setTitleColor(.black, for: .normal)
+        newRoundButton.layer.cornerRadius = 10
+        
+        courseImageView.image = UIImage(named: "Ledges")
+    }
 
     /*
     // MARK: - Navigation
