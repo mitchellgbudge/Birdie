@@ -19,6 +19,8 @@ class HomePageViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    // TODO: - Appearance Helper
+    
     func setupViews() {
         newRoundButton.layer.borderWidth = 0.2
         newRoundButton.layer.backgroundColor = UIColor.green.cgColor
