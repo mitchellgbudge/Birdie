@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		3D1C35F7236121F900A118C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C35F6236121F900A118C8 /* AppDelegate.swift */; };
 		3D1C35F9236121F900A118C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C35F8236121F900A118C8 /* SceneDelegate.swift */; };
-		3D1C35FB236121F900A118C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C35FA236121F900A118C8 /* ViewController.swift */; };
 		3D1C35FE236121F900A118C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1C35FC236121F900A118C8 /* Main.storyboard */; };
 		3D1C3601236121F900A118C8 /* BirdieApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C35FF236121F900A118C8 /* BirdieApp.xcdatamodeld */; };
 		3D1C3603236121FB00A118C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1C3602236121FB00A118C8 /* Assets.xcassets */; };
 		3D1C3606236121FB00A118C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1C3604236121FB00A118C8 /* LaunchScreen.storyboard */; };
 		3D1C3611236121FB00A118C8 /* BirdieAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C3610236121FB00A118C8 /* BirdieAppTests.swift */; };
 		3D1C361C236121FB00A118C8 /* BirdieAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C361B236121FB00A118C8 /* BirdieAppUITests.swift */; };
+		3D1C362F236123E200A118C8 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C362E236123E200A118C8 /* HomePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		3D1C35F3236121F900A118C8 /* BirdieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1C35F6236121F900A118C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D1C35F8236121F900A118C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D1C35FA236121F900A118C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D1C35FD236121F900A118C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D1C3600236121F900A118C8 /* BirdieApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirdieApp.xcdatamodel; sourceTree = "<group>"; };
 		3D1C3602236121FB00A118C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		3D1C3617236121FB00A118C8 /* BirdieAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdieAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1C361B236121FB00A118C8 /* BirdieAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdieAppUITests.swift; sourceTree = "<group>"; };
 		3D1C361D236121FB00A118C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D1C362E236123E200A118C8 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +101,11 @@
 		3D1C35F5236121F900A118C8 /* BirdieApp */ = {
 			isa = PBXGroup;
 			children = (
-				3D1C35F6236121F900A118C8 /* AppDelegate.swift */,
-				3D1C35F8236121F900A118C8 /* SceneDelegate.swift */,
-				3D1C35FA236121F900A118C8 /* ViewController.swift */,
-				3D1C35FC236121F900A118C8 /* Main.storyboard */,
-				3D1C3602236121FB00A118C8 /* Assets.xcassets */,
-				3D1C3604236121FB00A118C8 /* LaunchScreen.storyboard */,
+				3D1C362B2361225C00A118C8 /* Model */,
+				3D1C362C2361226800A118C8 /* Model Controller */,
+				3D1C362D2361227100A118C8 /* View Controllers */,
+				3D1C36292361223A00A118C8 /* Storyboards */,
+				3D1C362A2361224600A118C8 /* Resources */,
 				3D1C3607236121FB00A118C8 /* Info.plist */,
 				3D1C35FF236121F900A118C8 /* BirdieApp.xcdatamodeld */,
 			);
@@ -129,6 +128,47 @@
 				3D1C361D236121FB00A118C8 /* Info.plist */,
 			);
 			path = BirdieAppUITests;
+			sourceTree = "<group>";
+		};
+		3D1C36292361223A00A118C8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3D1C35FC236121F900A118C8 /* Main.storyboard */,
+				3D1C3604236121FB00A118C8 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3D1C362A2361224600A118C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D1C35F6236121F900A118C8 /* AppDelegate.swift */,
+				3D1C35F8236121F900A118C8 /* SceneDelegate.swift */,
+				3D1C3602236121FB00A118C8 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3D1C362B2361225C00A118C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D1C362C2361226800A118C8 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		3D1C362D2361227100A118C8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D1C362E236123E200A118C8 /* HomePageViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D1C35FB236121F900A118C8 /* ViewController.swift in Sources */,
+				3D1C362F236123E200A118C8 /* HomePageViewController.swift in Sources */,
 				3D1C35F7236121F900A118C8 /* AppDelegate.swift in Sources */,
 				3D1C3601236121F900A118C8 /* BirdieApp.xcdatamodeld in Sources */,
 				3D1C35F9236121F900A118C8 /* SceneDelegate.swift in Sources */,
