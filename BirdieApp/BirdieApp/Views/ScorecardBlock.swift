@@ -18,8 +18,7 @@ class ScorecardBlock: UIView {
         super.init(coder: coder)
     }
     
-    let scorecardBlock = ScorecardBlock(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
+    return ScorecardBlock(frame: CGRect(x: 0, y: 0, width: 90, height: 90))
     
-    scorecardBlock.layer.borderWidth = 2
-    scorecardBlock.layer.borderColor = .black
+    
 }
