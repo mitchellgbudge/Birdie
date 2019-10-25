@@ -16,6 +16,8 @@
 		3D1C3611236121FB00A118C8 /* BirdieAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C3610236121FB00A118C8 /* BirdieAppTests.swift */; };
 		3D1C361C236121FB00A118C8 /* BirdieAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C361B236121FB00A118C8 /* BirdieAppUITests.swift */; };
 		3D1C362F236123E200A118C8 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C362E236123E200A118C8 /* HomePageViewController.swift */; };
+		3D1C36342363528900A118C8 /* HoleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C36332363528900A118C8 /* HoleTableViewCell.swift */; };
+		3D1C36362363529500A118C8 /* OptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C36352363529500A118C8 /* OptionTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		3D1C361B236121FB00A118C8 /* BirdieAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdieAppUITests.swift; sourceTree = "<group>"; };
 		3D1C361D236121FB00A118C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D1C362E236123E200A118C8 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		3D1C36332363528900A118C8 /* HoleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleTableViewCell.swift; sourceTree = "<group>"; };
+		3D1C36352363529500A118C8 /* OptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 			children = (
 				3D1C362B2361225C00A118C8 /* Model */,
 				3D1C362C2361226800A118C8 /* Model Controller */,
+				3D1C36322363526B00A118C8 /* Views */,
 				3D1C362D2361227100A118C8 /* View Controllers */,
 				3D1C36292361223A00A118C8 /* Storyboards */,
 				3D1C362A2361224600A118C8 /* Resources */,
@@ -169,6 +174,15 @@
 				3D1C362E236123E200A118C8 /* HomePageViewController.swift */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3D1C36322363526B00A118C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D1C36332363528900A118C8 /* HoleTableViewCell.swift */,
+				3D1C36352363529500A118C8 /* OptionTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +318,8 @@
 			files = (
 				3D1C362F236123E200A118C8 /* HomePageViewController.swift in Sources */,
 				3D1C35F7236121F900A118C8 /* AppDelegate.swift in Sources */,
+				3D1C36362363529500A118C8 /* OptionTableViewCell.swift in Sources */,
+				3D1C36342363528900A118C8 /* HoleTableViewCell.swift in Sources */,
 				3D1C3601236121F900A118C8 /* BirdieApp.xcdatamodeld in Sources */,
 				3D1C35F9236121F900A118C8 /* SceneDelegate.swift in Sources */,
 			);
