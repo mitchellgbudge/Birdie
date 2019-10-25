@@ -18,6 +18,7 @@
 		3D1C362F236123E200A118C8 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C362E236123E200A118C8 /* HomePageViewController.swift */; };
 		3D1C36342363528900A118C8 /* HoleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C36332363528900A118C8 /* HoleTableViewCell.swift */; };
 		3D1C36362363529500A118C8 /* OptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C36352363529500A118C8 /* OptionTableViewCell.swift */; };
+		3D1C3638236353D300A118C8 /* ScorecardBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C3637236353D300A118C8 /* ScorecardBlock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		3D1C362E236123E200A118C8 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		3D1C36332363528900A118C8 /* HoleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleTableViewCell.swift; sourceTree = "<group>"; };
 		3D1C36352363529500A118C8 /* OptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionTableViewCell.swift; sourceTree = "<group>"; };
+		3D1C3637236353D300A118C8 /* ScorecardBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorecardBlock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 			children = (
 				3D1C36332363528900A118C8 /* HoleTableViewCell.swift */,
 				3D1C36352363529500A118C8 /* OptionTableViewCell.swift */,
+				3D1C3637236353D300A118C8 /* ScorecardBlock.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				3D1C362F236123E200A118C8 /* HomePageViewController.swift in Sources */,
 				3D1C35F7236121F900A118C8 /* AppDelegate.swift in Sources */,
 				3D1C36362363529500A118C8 /* OptionTableViewCell.swift in Sources */,
+				3D1C3638236353D300A118C8 /* ScorecardBlock.swift in Sources */,
 				3D1C36342363528900A118C8 /* HoleTableViewCell.swift in Sources */,
 				3D1C3601236121F900A118C8 /* BirdieApp.xcdatamodeld in Sources */,
 				3D1C35F9236121F900A118C8 /* SceneDelegate.swift in Sources */,
