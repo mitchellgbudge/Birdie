@@ -4,7 +4,12 @@
         <attribute name="par" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
     </entity>
+    <entity name="Round" representedClassName="Round" syncable="YES" codeGenerationType="class">
+        <attribute name="courseName" optional="YES" attributeType="String"/>
+        <attribute name="holes" optional="YES" attributeType="String"/>
+    </entity>
     <elements>
         <element name="Hole" positionX="-63" positionY="-18" width="128" height="73"/>
+        <element name="Round" positionX="-54" positionY="9" width="128" height="73"/>
     </elements>
 </model>
